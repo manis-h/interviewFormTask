@@ -51,12 +51,11 @@ export default function Interview() {
         console.log("I was closed by the timer");
         console.log(
           { interviewDetails },
-          { addinterviewDetails },
           { detailCollection },
           { documentCollection },
           { statementofPurpouse }
         );
-        clearStep();
+        // clearStep();
       }
     });
     // nextStep();
@@ -69,11 +68,13 @@ export default function Interview() {
             className="row "
             style={{ backgroundColor: "rgba(26, 143, 230, 0.15)" }}
           >
-            <h1>Details Collection</h1>
+            <h1>Interview Availablity</h1>
             <br />
             <p className="text-secondary">
-              Collect information from Candidates on their education, work
-              experience, contact no,etc
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Laudantium rerum commodi facere sed optio assumenda quos quisquam
+              perferendis eaque fugiat? Rerum ipsum placeat nostrum veniam
+              accusantium aspernatur illum autem aliquam?
             </p>
             <br />
             <br />
